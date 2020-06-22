@@ -1,11 +1,14 @@
 # b3orgtheme
 
-Vanilla Bootstrap v3 theme : static components
-Pulls in "default" theme from Bootswatch.
+JASMIN-branded Bootstrap v3 theme
 
 ## Installation
 
-`b3orgtheme` can be installed directly from Github using pip:
+Although it can be installed as a django app, its intended use is to be
+deployed to an artefacts server so that static assets can be pointed to by
+the relevant `fwtheme-django` or `fwtheme-django-<orgname>`.
+
+`b3orgtheme` can also be installed directly from Github using pip:
 
 ```
 $ pip install git+https://git@github.com/cedadev/b3orgtheme.git
